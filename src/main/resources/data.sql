@@ -1,0 +1,1 @@
+INSERT INTO student (id, name, salary, birthday, age) VALUES (nextval('student_sequence'), 'Dima', 5000, '1991-07-03', 34), (nextval('student_sequence'), 'Karina', 10000, '1996-01-14', 29);
