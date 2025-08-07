@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.demo.repository.student;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;

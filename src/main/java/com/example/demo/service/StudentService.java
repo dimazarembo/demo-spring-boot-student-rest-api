@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
-import com.example.demo.repository.Student;
-import com.example.demo.repository.StudentRepository;
+import com.example.demo.repository.student.Student;
+import com.example.demo.repository.student.StudentRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

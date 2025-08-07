@@ -30,7 +30,7 @@ nano application.properties
 - GET /student/{id} - Retrieve a student by ID
 - PUT /student/{id} - Update a student
 - DELETE /student/{id} - Delete a student
--
+
 
 ## Post Body example
 
@@ -39,3 +39,23 @@ nano application.properties
 "salary": 5000,
 "birthday": "1991-07-03"
 }
+
+# Security block
+## Session-based
+### Endpoints
+
+- POST /security/registration - public registration new user (role USER_ROLE)
+  
+{
+  "username": "newuser",
+  "password": "securepassword"
+  }
+- GET /security/user/** - USER and ADMIN zone
+- GET /security/user/me - authenticated user info
+- GET /security/admin/** - ADMIN only zone
+- GET /security/ - authenticated users only 
+- /login /logout  - standard forms
+
+### Exists users
+admin admin (ADMIN_ROLE)
+user user (USER_ROLE)
