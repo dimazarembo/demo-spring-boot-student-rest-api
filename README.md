@@ -5,7 +5,7 @@ REST API for managing students using Spring Boot and H2 database.
 ## Setup
 
 1. Install Java 17 and Maven.
-2. Clone the repository: `git clone https://github.com/dzarembo/student-rest-api.git`
+2. Clone the repository: `git clone https://github.com/dimazarembo/student-rest-api.git`
 3. Navigate to the project directory: `cd student-rest-api`
 4. Rename `application-example.properties` to `application.properties`
 
